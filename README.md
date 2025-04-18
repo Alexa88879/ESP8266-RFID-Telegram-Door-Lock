@@ -85,11 +85,12 @@ A smart, Wi-Fi-enabled door access system built using **ESP8266**, **RFID**, **L
 
 ## 📲 Telegram Bot Setup
 
-1. Create a new bot using [BotFather](<a href="https://t.me/botfather" target="_blank">BotFather</a>).
+1. Create a new bot using [BotFather](https://t.me/botfather).
 2. Save the **Bot Token**.
 3. Start a chat with your bot and send a message.
 4. Use [@userinfobot](https://t.me/userinfobot) to get your **chat ID**.
 5. Replace the placeholders in the code:
    ```cpp
    String botToken = "<your_bot_token>";
-   String chatId = "<your_chat_id>";
+   String chatId = "<your_chat_id>"; the webpage one in new page
+when link click
