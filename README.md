@@ -26,8 +26,9 @@ This project is a smart door lock system built using an **ESP8266**, **RFID (RC5
 | RC522 RFID Reader   | Reads RFID card UID        |
 | RFID Tag/Card       | Used for authentication    |
 | L298N Motor Driver  | Controls motor for locking |
-| DC Motor or Servo   | To simulate door lock      |
-| OLED Display (SSD1306) | Displays messages         |
+|  DC 12V Electric Solenoid
+Lock or Servo   | To simulate door lock      |
+| I2C OLED Display Module | Displays messages         |
 | Jumper Wires        | Connections                 |
 | Power Supply        | For motor and ESP8266       |
 
