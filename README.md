@@ -15,7 +15,11 @@ A smart, Wi-Fi-enabled door access system built using **ESP8266**, **RFID**, **L
 - 📡 Wi-Fi enabled and OTA-capable
 
 ---
- ![Watch Local Video](Demo/video_demo.mp4)
+<video width="100%" controls>
+  <source src="Demo/video_demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 
 
 ## 🛠️ Hardware Components
