@@ -81,7 +81,7 @@ A smart, Wi-Fi-enabled door access system built using **ESP8266**, **RFID**, **L
 | OLED Pin | ESP8266 Pin |
 |----------|-------------|
 | SDA      | D2          |
-| SCL      | D1          |
+| SCL/SCK     | D1          |
 | VDD      | 3V          |
 | GND      | GND         |
 
@@ -91,7 +91,7 @@ A smart, Wi-Fi-enabled door access system built using **ESP8266**, **RFID**, **L
 | RFID Pin | ESP8266 Pin |
 |----------|-------------|
 | SDA      | D4          |
-| SCK      | D5          |
+| SCL/SCK      | D5          |
 | MOSI     | D7          |
 | MISO     | D6          |
 | RST      | D3          |
@@ -113,13 +113,41 @@ A smart, Wi-Fi-enabled door access system built using **ESP8266**, **RFID**, **L
    - Telegram alert is sent.
 5. Optionally, the door can be unlocked via web interface hosted on ESP8266.
    you can access web interface via                  
-   `http://"<esp-ip>":80`
+   `http://<esp-ip>:80`
 
 ---
 ### 👨‍💻 Contributors
 
 | Name        | GitHub Profile                          | Role/Contribution                        |
 |-------------|------------------------------------------|-------------------------------------------|
-| Mohit       | [@yourGitHubUsername](https://github.com/yourGitHubUsername) | Developer, Hardware Integration, Telegram API |
-| Krishnav Talukdar | [@CYBERCONQUEROR](https://github.com/CYBERCONQUEROR) | Web Interface, UI Design, Testing        |
+| Vaibhav Sharma       | [@vaibhav2195](https://github.com/vaibhav2195) | Hardware Integration & Developer, Telegram API   |
+| Devansh Singh       | [@Deva3664](https://github.com/Deva3664) |Hardware & Enclosure Designer, project demo & presentation |
+| Krishnav Talukdar | [@CYBERCONQUEROR](https://github.com/CYBERCONQUEROR) |  Web Integration, project demo & presentation       |
+| Aryan Patel       | [@Alexa88879](https://github.com/Alexa88879) | Hardware Integration & Developer, Documentation Lead  |
 
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+### Steps to Contribute:
+
+1. **Fork the project**  
+   Click the "Fork" button on the top right of the repository to create a copy of the project under your GitHub account.
+
+2. **Create your feature branch**  
+   ```bash
+   git checkout -b feature/AmazingFeature
+3. **Commit your changes**
+   ```bash
+   git commit -m 'Add some AmazingFeature'
+6. **Push to the branch**
+   ```bash
+   git push origin feature/AmazingFeature
+Open a Pull Request
+
+## 📧 Contact
+
+For any questions or feedback, please reach out through:
+
+- **GitHub Issues**: [Create an issue](https://github.com/Alexa88879/ESP8266-RFID-Telegram-Door-Lock/issues)
+- **Email**: [singh983853@gmail.com](singh983853@gmail.com)
