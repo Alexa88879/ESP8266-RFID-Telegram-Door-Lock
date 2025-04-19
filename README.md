@@ -15,6 +15,8 @@ A smart, Wi-Fi-enabled door access system built using **ESP8266**, **RFID**, **L
 - 📡 Wi-Fi enabled and OTA-capable
 
 ---
+🎞 [Watch Local Video](Demo/video_demo.mp4)
+
 
 ## 🛠️ Hardware Components
 
@@ -32,6 +34,7 @@ A smart, Wi-Fi-enabled door access system built using **ESP8266**, **RFID**, **L
 ---
 
 ## 🔌 Hardware Connections
+![ESP8266 Connections](Demo/CONNECTIONS.jpg)
 
 ### 📟 **L298N Motor Driver → ESP8266**
 | L298N Pin | ESP8266 Pin |
