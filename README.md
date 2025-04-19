@@ -15,11 +15,7 @@ A smart, Wi-Fi-enabled door access system built using **ESP8266**, **RFID**, **L
 - 📡 Wi-Fi enabled and OTA-capable
 
 ---
-<video width="100%" controls>
-  <source src="Demo/video_demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
+🎥 [Click here to download or view demo video](https://drive.google.com/file/d/1mZy1aYN8QZInOovXf1yhzZags61BjSnt/view?usp=sharing)
 
 
 ## 🛠️ Hardware Components
@@ -52,7 +48,7 @@ A smart, Wi-Fi-enabled door access system built using **ESP8266**, **RFID**, **L
 | GND       | 12V Battery –   |
 
 ---
-| -VE 5V BATTERY  | -VE SOLENOID  |
+| -VE OF 5V BATTERY  | -VE OF SOLENOID  |
 |-----------|-----------------------|
 
 ---
