@@ -116,7 +116,7 @@ A smart, Wi-Fi-enabled door access system built using **ESP8266**, **RFID**, **L
    `http://<esp-ip>:80`
 
 ---
-### 👨‍💻 Contributors
+## 👨‍💻 Contributors
 
 | Name        | GitHub Profile                          | Role/Contribution                        |
 |-------------|------------------------------------------|-------------------------------------------|
@@ -125,10 +125,9 @@ A smart, Wi-Fi-enabled door access system built using **ESP8266**, **RFID**, **L
 | Krishnav Talukdar | [@CYBERCONQUEROR](https://github.com/CYBERCONQUEROR) |  Web Integration, project demo & presentation       |
 | Aryan Patel       | [@Alexa88879](https://github.com/Alexa88879) | Hardware Integration & Developer, Documentation Lead  |
 
+---
 ## 🤝 Contributing
-
 Contributions are welcome! Please feel free to submit a Pull Request.
-
 ### Steps to Contribute:
 
 1. **Fork the project**  
@@ -143,11 +142,9 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 6. **Push to the branch**
    ```bash
    git push origin feature/AmazingFeature
-Open a Pull Request
-
+7. **Open a Pull Request**
+---
 ## 📧 Contact
-
 For any questions or feedback, please reach out through:
-
 - **GitHub Issues**: [Create an issue](https://github.com/Alexa88879/ESP8266-RFID-Telegram-Door-Lock/issues)
 
