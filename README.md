@@ -150,4 +150,4 @@ Open a Pull Request
 For any questions or feedback, please reach out through:
 
 - **GitHub Issues**: [Create an issue](https://github.com/Alexa88879/ESP8266-RFID-Telegram-Door-Lock/issues)
-- **Email**: [singh983853@gmail.com](singh983853@gmail.com)
+
