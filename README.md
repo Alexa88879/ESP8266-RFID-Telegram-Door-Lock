@@ -17,6 +17,30 @@ A smart, Wi-Fi-enabled door access system built using **ESP8266**, **RFID**, **L
 ---
 🎥 [Click here to download or view demo video](https://drive.google.com/file/d/1mZy1aYN8QZInOovXf1yhzZags61BjSnt/view?usp=sharing)
 
+## 🚀 Getting Started
+
+1. Clone the repository
+2. Open `ESP8266.ino` in Arduino IDE
+3. Install required libraries:
+   - `ESP8266WiFi`
+   - `MFRC522`
+   - `ESPAsyncWebServer`
+   - `Adafruit_SSD1306`
+   - `ESP8266WebServer`
+   - `Adafruit GFX Library`
+4. Update your Wi-Fi credentials, Telegram Bot Token, and Chat ID in code
+5. Upload to ESP8266 and test!
+
+## 📲 Telegram Bot Setup
+
+1. Create a new bot using [BotFather](https://t.me/botfather).
+2. Save the **Bot Token**.
+3. Start a chat with your bot and send a message.
+4. Use [@userinfobot](https://t.me/userinfobot) to get your **chat ID**.
+5. Replace the placeholders in the code:
+   ```cpp
+   String botToken = "<your_bot_token>";
+   String chatId = "<your_chat_id>";
 
 ## 🛠️ Hardware Components
 
@@ -88,17 +112,14 @@ A smart, Wi-Fi-enabled door access system built using **ESP8266**, **RFID**, **L
    - OLED shows **Access Denied**.
    - Telegram alert is sent.
 5. Optionally, the door can be unlocked via web interface hosted on ESP8266.
+   you can access web interface via                  
+   `http://"<esp-ip>":80`
 
 ---
+### 👨‍💻 Contributors
 
-## 📲 Telegram Bot Setup
-
-1. Create a new bot using [BotFather](https://t.me/botfather).
-2. Save the **Bot Token**.
-3. Start a chat with your bot and send a message.
-4. Use [@userinfobot](https://t.me/userinfobot) to get your **chat ID**.
-5. Replace the placeholders in the code:
-   ```cpp
-   String botToken = "<your_bot_token>";
-   String chatId = "<your_chat_id>";
+| Name        | GitHub Profile                          | Role/Contribution                        |
+|-------------|------------------------------------------|-------------------------------------------|
+| Mohit       | [@yourGitHubUsername](https://github.com/yourGitHubUsername) | Developer, Hardware Integration, Telegram API |
+| Krishnav Talukdar | [@CYBERCONQUEROR](https://github.com/CYBERCONQUEROR) | Web Interface, UI Design, Testing        |
 
