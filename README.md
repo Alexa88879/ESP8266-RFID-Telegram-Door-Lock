@@ -23,9 +23,10 @@ A smart, Wi-Fi-enabled door access system built using **ESP8266**, **RFID**, **L
 | ESP8266 NodeMCU       | 1        |
 | RC522 RFID Reader     | 1        |
 | L298N Motor Driver    | 1        |
-| Servo/DC Motor        | 1        |
+| Solenoid Lock        | 1        |
 | OLED Display (SSD1306)| 1        |
 | 12V Battery Pack      | 1        |
+| 5V Battery Pack      | 1        |
 | Connecting Wires      | As needed |
 
 ---
@@ -38,10 +39,14 @@ A smart, Wi-Fi-enabled door access system built using **ESP8266**, **RFID**, **L
 | ENA       | D0          |
 | IN1       | D8          |
 | IN2       | RX (GPIO3)  |
-| OUT1      | Servo (+)   |
-| OUT2      | Servo (–)   |
-| 12V       | Battery +   |
-| GND       | Battery –   |
+| OUT1      | +VE SOLENOID|
+| OUT2      | +VE 5V Battery |
+| 12V       | 12V Battery +   |
+| GND       | 12V Battery –   |
+
+---
+| -VE 5V BATTERY  | -VE SOLENOID  |
+|-----------|-----------------------|
 
 ---
 
@@ -92,5 +97,5 @@ A smart, Wi-Fi-enabled door access system built using **ESP8266**, **RFID**, **L
 5. Replace the placeholders in the code:
    ```cpp
    String botToken = "<your_bot_token>";
-   String chatId = "<your_chat_id>"; the webpage one in new page
-when link click
+   String chatId = "<your_chat_id>";
+
